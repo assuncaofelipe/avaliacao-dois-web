@@ -320,10 +320,10 @@ footer {
     flex-direction : column;
     align-items    : center;
     justify-content: center;
+    text-align: center;
 }
 
 footer a {
-    text-align     : center;
     text-transform : uppercase;
     color          : white;
     font-weight    : bolder;
