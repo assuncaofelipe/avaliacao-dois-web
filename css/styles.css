@@ -13,7 +13,7 @@ footer {
 
 nav {
     background     : radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(46, 45, 45) 90.2%);
-    min-height     : 80px;
+    min-height     : 70px;
     display        : flex;
     align-items    : center;
     justify-content: space-between;
@@ -150,6 +150,7 @@ header a {
 
 #sobre a {
     justify-content: center;
+    margin-top     : 25px;
     display        : flex;
     align-items    : center;
     width          : 150px;
@@ -261,7 +262,7 @@ header a {
     display              : grid;
     grid-template-columns: repeat(3, 1fr);
     gap                  : 20px;
-    
+
 }
 
 
@@ -335,6 +336,12 @@ footer a {
     .content-cards-fotos {
         display       : flex;
         flex-direction: column;
+    }
+
+    #sobre,
+    #servicos,
+    #fotos {
+        padding-top: 70px;
     }
 
     .content-servicos {
