@@ -261,11 +261,12 @@ header a {
     display              : grid;
     grid-template-columns: repeat(3, 1fr);
     gap                  : 20px;
+    
 }
 
 
-#contact {
-    text-align: justify;
+#contato {
+    text-align     : justify;
     display        : flex;
     flex-direction : column;
     align-items    : center;
@@ -273,38 +274,60 @@ header a {
     height         : 350px;
 }
 
-#contact h2 {
+#contato h2 {
     text-transform: uppercase;
     font-weight   : bolder;
     margin-bottom : 25px;
 }
 
-#contact p {
+#contato p {
     text-transform: uppercase;
     font-size     : 16px;
     font-weight   : bold;
 }
 
-#contact div {
+#contato div {
     display       : flex;
     flex-direction: row;
     margin-top    : 25px;
 }
 
 #telefone {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    justify-content: center;
+    gap            : 20px;
+}
+
+#email {
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    justify-content: center;
+    gap            : 20px;
 }
 
 footer {
-    margin    : 0;
-    padding   : 0;
-    width     : 100%;
-    background: black;
-    height    : 200px;
-    bottom    : 0;
-    position  : relative;
+    margin         : 0;
+    padding        : 0;
+    width          : 100%;
+    background     : linear-gradient(to bottom left, rgb(0, 0, 0) 0%, rgb(46, 45, 45) 90.2%);
+    height         : 120px;
+    bottom         : 0;
+    color          : white;
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+}
+
+footer a {
+    text-transform : uppercase;
+    color          : white;
+    font-weight    : bolder;
+    text-decoration: underline;
+    margin-bottom  : 15px;
 }
 
 @media (max-width: 768px) {
